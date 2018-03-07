@@ -1,5 +1,6 @@
 # The MetInfo 6.0.0 feedback management page has a stored XSS #
 
+###Description:Cross-site scripting (XSS) vulnerability in MetInfo 6.0.0 allows remote attackers to inject arbitrary web script or HTML
 
 ## 1.Technical Description: ##
 
