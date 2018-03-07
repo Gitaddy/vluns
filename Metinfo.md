@@ -53,7 +53,7 @@ locate in /app/system/feedback/web/feedback_admin.class.php line:169 to 190
     require $this->template('own/article_add');
 	}
 
-And Then locate in /app/system/feedback/web/feedback_admin.class.php line:16 to 75
+And Then locate in /app/system/feedback/admin/templates/artile_add.php line:16 to 75
 
 	foreach($feedback_para as $key=>$val){
     $email=$val[id]==$met_fd_email&&$val[content]?"&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"{$_M[url][own_form]}a=doreplyemail&customerid={$customerid}&id={$id}&class1={$_M[form][class1]}&class2={$_M[form][class2]}&class3={$_M[form][class3]}&email={$val[content]}\">{$_M[word][unitytxt_35]}</a>":'';
