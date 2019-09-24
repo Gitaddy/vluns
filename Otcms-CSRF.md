@@ -16,5 +16,9 @@ And refresh page,add a management group account successfully.
 
 ## 2.PoC ##
 1、Fake an html such as this.
+
+
 ![](04.png)
+
+
 2、Once the logged in user opens the URL the form will get submitted with active session of  administrator and action get performed successfully.
